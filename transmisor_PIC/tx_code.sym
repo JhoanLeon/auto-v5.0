@@ -1,0 +1,85 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+005     porta
+006     portb
+008     PSP_DATA
+00B     INTCON
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020.0   interRF
+020.1   RCVNW
+021-022 noRF
+023     DATA_N_SND
+024     DATA_N_RCV
+025-02C RF_DATA
+02D     RF_DIR
+02E     @TRIS_C
+02F     time
+030     ret2
+031     RF_SEND.i
+031     @delay_ms1.P1
+031     RF_CONFIG.canal
+032     RF_SEND.estado
+032     RF_CONFIG.dir
+033     RF_SEND.@SCRATCH1
+034     RF_SEND.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+085     TRISA
+086     TRISB
+087     TRISC
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  RF_INT_EN
+000012  RF_CONFIG_SPI
+000030  RF_CONFIG
+000223  @delay_ms1
+000238  RF_ON
+00026B  RF_SEND
+000471  MAIN
+000471  @cinit1
+000482  @cinit2
+
+Project Directory:
+    D:\Proyectos\Carro RF V5.0\transmisor_PIC\
+
+Project Files:
+    tx_code.c                                               [30-ene.-21 16:44  CRC=D62A5BA8]
+    C:\Program Files\PICC\Devices\16F877A.h                 [12-nov.-13 14:35  CRC=81334808]
+    lib_rf2gh4_10.h                                         [15-ene.-21 23:39  CRC=185AAE3C]
+
+Source signature=88130028
+
+Units:
+    tx_code (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   tx_code.xsym
+    Errors:      tx_code.err
+    Ext Symbols: tx_code.esym
+    INHX8:       tx_code.hex
+    Symbols:     tx_code.sym
+    List:        tx_code.lst
+    Debug/COFF:  tx_code.cof
+    Project:     tx_code.ccspjt
+    Call Tree:   tx_code.tre
+    Statistics:  tx_code.STA

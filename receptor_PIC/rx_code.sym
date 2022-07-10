@@ -1,0 +1,78 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+005     porta
+008     PSP_DATA
+00B     INTCON
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020.0   interRF
+020.1   RCVNW
+021-022 noRF
+023     DATA_N_SND
+024     DATA_N_RCV
+025-02C RF_DATA
+02D     RF_DIR
+02E     @TRIS_C
+02F     time
+030     @delay_ms1.P1
+030     RF_CONFIG.canal
+031     RF_CONFIG.dir
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+085     TRISA
+086     TRISB
+087     TRISC
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  RF_INT_EN
+000012  RF_CONFIG_SPI
+000030  RF_CONFIG
+000223  @delay_ms1
+000238  RF_ON
+00026B  MAIN
+00026B  @cinit1
+00027C  @cinit2
+
+Project Directory:
+    D:\Proyectos\Carro RF V5.0\receptor_PIC\
+
+Project Files:
+    rx_code.c                                               [30-ene.-21 17:37  CRC=542D0753]
+    C:\Program Files\PICC\Devices\16F877A.h                 [12-nov.-13 14:35  CRC=81334808]
+    lib_rf2gh4_10.h                                         [15-ene.-21 23:41  CRC=185AAE3C]
+
+Source signature=0615ABD3
+
+Units:
+    rx_code (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   rx_code.xsym
+    Errors:      rx_code.err
+    Ext Symbols: rx_code.esym
+    INHX8:       rx_code.hex
+    Symbols:     rx_code.sym
+    List:        rx_code.lst
+    Debug/COFF:  rx_code.cof
+    Project:     rx_code.ccspjt
+    Call Tree:   rx_code.tre
+    Statistics:  rx_code.STA

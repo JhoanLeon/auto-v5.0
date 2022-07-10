@@ -1,0 +1,15 @@
+ÀÄCarro RF V5
+   ÀÄMAIN  0/142  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄRF_INT_EN  0/14  Ram=0
+      ÃÄRF_CONFIG_SPI  0/30  Ram=0
+      ÃÄRF_CONFIG  0/499  Ram=2
+      ÃÄRF_ON  0/51  Ram=0
+      ³  ÀÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÀÄRF_SEND  0/518  Ram=4

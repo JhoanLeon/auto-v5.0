@@ -1,0 +1,36 @@
+#include <16f877A.h>
+
+#fuses XT,NOWDT
+#use delay (clock=4MHZ)
+
+#use standard_io(A) // analog input
+#use standard_io(B) //output
+#use standard_io(C) // input port / i2c,spi
+
+int time = 200;
+int count = 0;
+
+
+void tiempo()
+{
+   if(input(PIN_A0) == 0)
+   {
+      count = 0;
+   }
+}
+
+
+void main()
+{
+   output_b(0b00000000);
+   
+   while(1)
+   { 
+      output_high(PIN_B0);
+      delay_ms(time);
+      output_low(PIN_B0);
+      delay_ms(time);
+   }
+}
+
+

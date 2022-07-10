@@ -1,0 +1,19 @@
+[PROJECT]
+Target=tx_code.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=tx_code.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[tx_code.c]
+Type=4
+[mru-list]
+1=tx_code.c
+[Opened Files]
+1=tx_code.c
+2=
+[Units]
+Count=1
+1=tx_code (main)

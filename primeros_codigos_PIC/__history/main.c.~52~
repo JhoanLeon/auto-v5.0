@@ -1,0 +1,52 @@
+#include <16f877A.h>
+
+#fuses XT,NOWDT
+#use delay (clock=4MHZ)
+
+#use standard_io(A) // analog input
+#use standard_io(B) //output
+#use standard_io(C) // input port / i2c,spi
+
+#device ADC = 10
+
+int time = 150;
+
+void main()
+{
+   output_b(0b00000000); // inicia todo el puerto b apagado
+   SETUP_ADC_PORTS();
+
+   output_high(PIN_B0);
+   delay_ms(time);
+   output_low(PIN_B0);
+   delay_ms(time);
+   output_high(PIN_B0);
+   delay_ms(time);
+   output_low(PIN_B0);
+   
+   while(1)
+   {
+      
+      if( input(PIN_C1) == 1 )
+      {
+         output_high(PIN_B1);
+      }
+      output_low(PIN_B1);
+      
+      if( input(PIN_C2) == 1 )
+      {
+         output_high(PIN_B2);
+      }
+      output_low(PIN_B2);
+      
+      
+      
+      if( input(PIN_C0) == 1 )
+      {
+         output_high(PIN_B0);
+      }
+      output_low(PIN_B0);
+   }
+}
+
+

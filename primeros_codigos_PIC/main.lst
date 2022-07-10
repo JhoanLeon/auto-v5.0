@@ -1,0 +1,280 @@
+CCS PCM C Compiler, Version 4.114, 93460303               03-ene.-21 20:53
+
+               Filename: D:\Proyectos\Carro RF V5.0\primeros_codigos_PIC\main.lst
+
+               ROM used: 186 words (2%)
+                         Largest free fragment is 2048
+               RAM used: 11 (3%) at main() level
+                         12 (3%) worst case
+               Stack:    1 locations
+
+*
+0000:  MOVLW  00
+0001:  MOVWF  0A
+0002:  GOTO   019
+0003:  NOP
+.................... #include <16f877A.h> 
+.................... //////// Standard Header file for the PIC16F877A device //////////////// 
+.................... #device PIC16F877A 
+.................... #list 
+....................  
+....................  
+.................... #device adc=10 
+....................  
+.................... #use delay(clock=4MHZ,crystal) 
+0004:  MOVLW  26
+0005:  MOVWF  04
+0006:  BCF    03.7
+0007:  MOVF   00,W
+0008:  BTFSC  03.2
+0009:  GOTO   018
+000A:  MOVLW  01
+000B:  MOVWF  78
+000C:  CLRF   77
+000D:  DECFSZ 77,F
+000E:  GOTO   00D
+000F:  DECFSZ 78,F
+0010:  GOTO   00C
+0011:  MOVLW  4A
+0012:  MOVWF  77
+0013:  DECFSZ 77,F
+0014:  GOTO   013
+0015:  GOTO   016
+0016:  DECFSZ 00,F
+0017:  GOTO   00A
+0018:  RETURN
+.................... #fuses XT,NOWDT,NOPROTECT 
+....................  
+.................... #use standard_io(A) // analog input 
+.................... #use standard_io(B) // output 
+.................... #use standard_io(C) // input port / i2c,spi 
+....................  
+.................... int time = 150; 
+....................  
+.................... int16 velocity; // valor de velocidad del joystick 
+.................... int16 position; // valor del potenciometro para servo 
+....................  
+.................... void main() 
+.................... { 
+0019:  CLRF   04
+001A:  BCF    03.7
+001B:  MOVLW  1F
+001C:  ANDWF  03,F
+001D:  MOVLW  FF
+001E:  MOVWF  20
+001F:  MOVLW  96
+0020:  MOVWF  21
+0021:  BSF    03.5
+0022:  BSF    1F.0
+0023:  BSF    1F.1
+0024:  BSF    1F.2
+0025:  BCF    1F.3
+0026:  MOVLW  07
+0027:  MOVWF  1C
+....................    //set_tris_a(0b00000011); // configura AN0 y AN1 como entrada 
+....................    setup_adc_ports(ALL_ANALOG); // configuracion de puertos analogicos 
+0028:  BCF    1F.0
+0029:  BCF    1F.1
+002A:  BCF    1F.2
+002B:  BCF    1F.3
+....................    setup_adc(ADC_CLOCK_INTERNAL); // configura clock del ADC 
+002C:  BCF    1F.6
+002D:  BCF    03.5
+002E:  BSF    1F.6
+002F:  BSF    1F.7
+0030:  BSF    03.5
+0031:  BSF    1F.7
+0032:  BCF    03.5
+0033:  BSF    1F.0
+....................     
+....................    setup_ccp1(CCP_PWM); // configura el ccp1 como salida PWM 
+0034:  BCF    20.2
+0035:  MOVF   20,W
+0036:  BSF    03.5
+0037:  MOVWF  07
+0038:  BCF    03.5
+0039:  BCF    07.2
+003A:  MOVLW  0C
+003B:  MOVWF  17
+....................    setup_timer_2(T2_DIV_BY_4, 255, 1); // configura el timer2 para el PWM 
+003C:  MOVLW  00
+003D:  MOVWF  78
+003E:  IORLW  05
+003F:  MOVWF  12
+0040:  MOVLW  FF
+0041:  BSF    03.5
+0042:  MOVWF  12
+....................    setup_ccp2(CCP_PWM); // configura el ccp2 como salida PWM 
+0043:  BCF    03.5
+0044:  BCF    20.1
+0045:  MOVF   20,W
+0046:  BSF    03.5
+0047:  MOVWF  07
+0048:  BCF    03.5
+0049:  BCF    07.1
+004A:  MOVLW  0C
+004B:  MOVWF  1D
+....................    setup_timer_2(T2_DIV_BY_4, 255, 1); // configura el timer2 para el PWM 
+004C:  MOVLW  00
+004D:  MOVWF  78
+004E:  IORLW  05
+004F:  MOVWF  12
+0050:  MOVLW  FF
+0051:  BSF    03.5
+0052:  MOVWF  12
+....................  
+....................    output_high(PIN_B0); 
+0053:  BCF    06.0
+0054:  BCF    03.5
+0055:  BSF    06.0
+....................    delay_ms(time); 
+0056:  MOVF   21,W
+0057:  MOVWF  26
+0058:  CALL   004
+....................    output_low(PIN_B0); 
+0059:  BSF    03.5
+005A:  BCF    06.0
+005B:  BCF    03.5
+005C:  BCF    06.0
+....................    delay_ms(time); 
+005D:  MOVF   21,W
+005E:  MOVWF  26
+005F:  CALL   004
+....................    output_high(PIN_B0); 
+0060:  BSF    03.5
+0061:  BCF    06.0
+0062:  BCF    03.5
+0063:  BSF    06.0
+....................    delay_ms(time); 
+0064:  MOVF   21,W
+0065:  MOVWF  26
+0066:  CALL   004
+....................    output_low(PIN_B0); 
+0067:  BSF    03.5
+0068:  BCF    06.0
+0069:  BCF    03.5
+006A:  BCF    06.0
+....................    delay_ms(time); 
+006B:  MOVF   21,W
+006C:  MOVWF  26
+006D:  CALL   004
+....................    output_high(PIN_B0); 
+006E:  BSF    03.5
+006F:  BCF    06.0
+0070:  BCF    03.5
+0071:  BSF    06.0
+....................    delay_ms(time); 
+0072:  MOVF   21,W
+0073:  MOVWF  26
+0074:  CALL   004
+....................    output_low(PIN_B0); 
+0075:  BSF    03.5
+0076:  BCF    06.0
+0077:  BCF    03.5
+0078:  BCF    06.0
+....................     
+....................    while(true) 
+....................    { 
+.................... //!      set_adc_channel(0); // configura el canal AN0 para lectura analoga 
+.................... //!      delay_us(20); // tiempo de espera para lectura analogica 
+.................... //!      velocity = read_adc(); // lee el canal cero AN0 y lo guarda en velocity 
+.................... //!      set_pwm1_duty(velocity); // pone a la salida ccp1_pwm (RC2) el valor leido de AN0 
+.................... //!      delay_us(20); // tiempo de espera para la salida analoga 
+....................        
+....................       set_adc_channel(2); // configura el canal AN1 para lectura analoga 
+0079:  MOVLW  10
+007A:  MOVWF  78
+007B:  MOVF   1F,W
+007C:  ANDLW  C7
+007D:  IORWF  78,W
+007E:  MOVWF  1F
+....................       delay_us(20); // tiempo de espera para lectura analogica 
+007F:  MOVLW  06
+0080:  MOVWF  77
+0081:  DECFSZ 77,F
+0082:  GOTO   081
+0083:  NOP
+....................       position = read_adc(); // lee el canal cero AN1 y lo guarda en velocity 
+0084:  BSF    1F.2
+0085:  BTFSC  1F.2
+0086:  GOTO   085
+0087:  BSF    03.5
+0088:  MOVF   1E,W
+0089:  BCF    03.5
+008A:  MOVWF  24
+008B:  MOVF   1E,W
+008C:  MOVWF  25
+....................       set_pwm2_duty(position); // pone a la salida ccp2_pwm (RC1) el valor leido de AN1 
+008D:  MOVF   25,W
+008E:  MOVWF  79
+008F:  MOVF   24,W
+0090:  MOVWF  78
+0091:  RRF    79,F
+0092:  RRF    78,F
+0093:  RRF    79,F
+0094:  RRF    78,F
+0095:  RRF    79,F
+0096:  MOVF   78,W
+0097:  MOVWF  1B
+0098:  RRF    79,F
+0099:  RRF    79,W
+009A:  ANDLW  30
+009B:  MOVWF  77
+009C:  MOVF   1D,W
+009D:  ANDLW  CF
+009E:  IORWF  77,W
+009F:  MOVWF  1D
+....................       set_pwm1_duty(position); // pone a la salida ccp1_pwm (RC2) el valor leido de AN0 
+00A0:  MOVF   25,W
+00A1:  MOVWF  79
+00A2:  MOVF   24,W
+00A3:  MOVWF  78
+00A4:  RRF    79,F
+00A5:  RRF    78,F
+00A6:  RRF    79,F
+00A7:  RRF    78,F
+00A8:  RRF    79,F
+00A9:  MOVF   78,W
+00AA:  MOVWF  15
+00AB:  RRF    79,F
+00AC:  RRF    79,W
+00AD:  ANDLW  30
+00AE:  MOVWF  77
+00AF:  MOVF   17,W
+00B0:  ANDLW  CF
+00B1:  IORWF  77,W
+00B2:  MOVWF  17
+....................       delay_us(20); // tiempo de espera para la salida analoga 
+00B3:  MOVLW  06
+00B4:  MOVWF  77
+00B5:  DECFSZ 77,F
+00B6:  GOTO   0B5
+00B7:  NOP
+....................        
+.................... //!      if( input(PIN_B7) == 1 ) // switche para las luces 
+.................... //!      { 
+.................... //!         output_high(PIN_B0); 
+.................... //!      } 
+.................... //!      output_low(PIN_B0); 
+.................... //!            
+.................... //!      if( input(PIN_B6) == 1 ) 
+.................... //!      { 
+.................... //!         output_high(PIN_B1); 
+.................... //!      } 
+.................... //!      output_low(PIN_B1); 
+.................... //!       
+.................... //!      if( input(PIN_B5) == 1 ) 
+.................... //!      { 
+.................... //!         output_high(PIN_B2); 
+.................... //!      } 
+.................... //!      output_low(PIN_B2); 
+....................        
+....................    } 
+00B8:  GOTO   079
+.................... } 
+....................  
+....................  
+00B9:  SLEEP
+
+Configuration Fuses:
+   Word  1: 3F71   XT NOWDT PUT BROWNOUT NOLVP NOCPD NOWRT NODEBUG NOPROTECT

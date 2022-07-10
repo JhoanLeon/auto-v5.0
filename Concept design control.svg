@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Concept design control.svg"
+   inkscape:export-filename="D:\Projects\Carro RF V5.0\Concept design auto.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="3838.9131"
+     inkscape:cy="631.9959"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:measure-start="2796.1,1143.49"
+     inkscape:measure-end="2969.85,852.569"
+     showguides="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g879"
+       transform="matrix(1.2620052,0,0,1.3239372,-192.69053,-70.489657)">
+      <rect
+         ry="9.8273811"
+         y="130.47548"
+         x="668.34705"
+         height="88.075974"
+         width="140.99263"
+         id="rect819-8"
+         style="opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text874"
+         y="150.5363"
+         x="687.41718"
+         style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:14.11111069px;stroke-width:0.26458332"
+           y="150.5363"
+           x="687.41718"
+           id="tspan872"
+           sodipodi:role="line">Microcontrolller</tspan></text>
+    </g>
+    <g
+       id="g879-3"
+       transform="matrix(1.0072437,0,0,1.036395,-222.4852,57.33582)">
+      <g
+         id="g911"
+         transform="translate(47.762537,-167.10873)">
+        <g
+           id="g917"
+           transform="translate(-64.29598,204.11886)">
+          <rect
+             transform="scale(-1,1)"
+             ry="9.8273811"
+             y="130.47548"
+             x="-809.33966"
+             height="88.075974"
+             width="140.99263"
+             id="rect819-8-9"
+             style="opacity:0.98999999;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             id="text874-8"
+             y="150.5363"
+             x="700.89563"
+             style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-size:14.11111069px;stroke-width:0.26458332"
+               y="150.5363"
+               x="700.89563"
+               id="tspan872-9"
+               sodipodi:role="line">RF System</tspan><tspan
+               style="font-size:14.11111069px;stroke-width:0.26458332"
+               y="161.73819"
+               x="700.89563"
+               sodipodi:role="line"
+               id="tspan905" /></text>
+        </g>
+        <g
+           id="g879-6"
+           transform="translate(-30.651349,-27.238303)">
+          <g
+             id="g934"
+             transform="translate(37.525793,-7.2940567)">
+            <rect
+               style="opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect819-8-1"
+               width="140.99263"
+               height="88.075974"
+               x="662.4715"
+               y="130.47548"
+               ry="9.8273811" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+               x="679.97412"
+               y="150.5363"
+               id="text874-7"><tspan
+                 sodipodi:role="line"
+                 id="tspan872-0"
+                 x="679.97412"
+                 y="150.5363"
+                 style="font-size:14.11111069px;stroke-width:0.26458332">Screen System</tspan></text>
+          </g>
+          <g
+             id="g879-8"
+             transform="translate(395.76941,5.5760591)">
+            <g
+               id="g951"
+               transform="matrix(1.4096617,0,0,1.1749593,-218.36438,115.22268)">
+              <rect
+                 style="opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 id="rect819-8-2"
+                 width="140.99263"
+                 height="88.075974"
+                 x="668.34705"
+                 y="131.22057"
+                 ry="9.8273811" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 x="711.59131"
+                 y="142.06967"
+                 id="text874-3"><tspan
+                   sodipodi:role="line"
+                   id="tspan872-7"
+                   x="711.59131"
+                   y="142.06967"
+                   style="font-size:7.66283321px;stroke-width:0.26458332">Button System</tspan></text>
+            </g>
+            <g
+               id="g879-2"
+               transform="translate(6.3683391,219.71704)">
+              <g
+                 id="g879-4"
+                 transform="translate(219.70767,-19.599175)">
+                <g
+                   id="g988"
+                   transform="translate(20.361452,-233.44538)">
+                  <rect
+                     style="opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="rect819-8-5"
+                     width="140.99263"
+                     height="88.075974"
+                     x="667.28473"
+                     y="130.47548"
+                     ry="9.8273811" />
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                     x="687.41718"
+                     y="150.5363"
+                     id="text874-48"><tspan
+                       sodipodi:role="line"
+                       id="tspan872-96"
+                       x="687.41718"
+                       y="150.5363"
+                       style="font-size:14.11111069px;stroke-width:0.26458332">Power System</tspan></text>
+                </g>
+                <g
+                   id="g879-34"
+                   transform="translate(150.43498,-35.011472)">
+                  <g
+                     id="g1005"
+                     transform="translate(24.411964,26.81992)">
+                    <rect
+                       style="opacity:1;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045825;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                       id="rect819-8-11"
+                       width="140.99263"
+                       height="88.075974"
+                       x="668.34705"
+                       y="130.47548"
+                       ry="9.8273811" />
+                    <text
+                       xml:space="preserve"
+                       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                       x="684.88629"
+                       y="150.5363"
+                       id="text874-35"><tspan
+                         sodipodi:role="line"
+                         id="tspan872-8"
+                         x="684.88629"
+                         y="150.5363"
+                         style="font-size:14.11111069px;stroke-width:0.26458332">Charge System</tspan></text>
+                  </g>
+                </g>
+              </g>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+                 x="898.93427"
+                 y="-76.197365"
+                 id="text940"
+                 transform="scale(1.0143676,0.9858359)"><tspan
+                   sodipodi:role="line"
+                   id="tspan938"
+                   x="898.93427"
+                   y="-76.197365"
+                   style="font-size:11.04895687px;stroke-width:0.25895992">- Regulator LM7805 1A</tspan><tspan
+                   sodipodi:role="line"
+                   x="898.93427"
+                   y="-62.386169"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan942">- ON/OFF LED indicator</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.17852354px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23169464"
+                 x="1417.6176"
+                 y="110.2668"
+                 id="text946"
+                 transform="scale(0.75945651,1.3167311)"><tspan
+                   sodipodi:role="line"
+                   id="tspan944"
+                   x="1417.6176"
+                   y="110.2668"
+                   style="font-size:11.04895687px;stroke-width:0.23169464">- Connector plug and play </tspan><tspan
+                   sodipodi:role="line"
+                   x="1417.6176"
+                   y="124.078"
+                   style="font-size:11.04895687px;stroke-width:0.23169464"
+                   id="tspan948">to charger for 2 cells</tspan><tspan
+                   sodipodi:role="line"
+                   x="1417.6176"
+                   y="137.88919"
+                   style="font-size:11.04895687px;stroke-width:0.23169464"
+                   id="tspan1012">LIPO batteries</tspan></text>
+            </g>
+            <g
+               id="g1027"
+               transform="translate(0,-35.011472)">
+              <rect
+                 rx="26.534742"
+                 ry="17.536102"
+                 y="28.772686"
+                 x="1082.9819"
+                 height="68.081337"
+                 width="113.5687"
+                 id="rect1007"
+                 style="opacity:0.98999999;fill:#55ff55;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:1.37045813;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+              <text
+                 transform="scale(1.0143676,0.9858359)"
+                 id="text1013"
+                 y="68.79995"
+                 x="1087.2784"
+                 style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+                 xml:space="preserve"><tspan
+                   style="font-size:19.33567429px;stroke-width:0.25895992"
+                   y="68.79995"
+                   x="1087.2784"
+                   id="tspan1011"
+                   sodipodi:role="line">Battery</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+                 x="1088.8479"
+                 y="87.49575"
+                 id="text952"
+                 transform="scale(1.0143676,0.9858359)"><tspan
+                   sodipodi:role="line"
+                   x="1088.8479"
+                   y="87.49575"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan954">7,4V - 0,5Ah</tspan><tspan
+                   sodipodi:role="line"
+                   x="1088.8479"
+                   y="97.526833"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan958" /></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.15422535px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23078346"
+                 x="103.62043"
+                 y="378.70886"
+                 id="text962"
+                 transform="scale(0.9039981,1.106197)"><tspan
+                   sodipodi:role="line"
+                   x="103.62043"
+                   y="378.70886"
+                   style="font-size:9.8467617px;stroke-width:0.23078346"
+                   id="tspan937">0) Movement commands</tspan><tspan
+                   sodipodi:role="line"
+                   x="103.62043"
+                   y="391.0173"
+                   style="font-size:9.8467617px;stroke-width:0.23078346"
+                   id="tspan939">0) Light/Cam actions </tspan><tspan
+                   sodipodi:role="line"
+                   x="103.62043"
+                   y="403.32578"
+                   style="font-size:9.8467617px;stroke-width:0.23078346"
+                   id="tspan966">1) Battery level from auto </tspan><tspan
+                   sodipodi:role="line"
+                   x="103.62043"
+                   y="415.63422"
+                   style="font-size:9.8467617px;stroke-width:0.23078346"
+                   id="tspan968">1) ACK of connection from auto</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+                 x="286.29285"
+                 y="93.250717"
+                 id="text972"
+                 transform="scale(1.0143676,0.9858359)"><tspan
+                   sodipodi:role="line"
+                   x="286.29285"
+                   y="93.250717"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan947">Information to show in screen:</tspan><tspan
+                   sodipodi:role="line"
+                   x="286.29285"
+                   y="107.06191"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan945">- Car and Control battery levels</tspan><tspan
+                   sodipodi:role="line"
+                   x="286.29285"
+                   y="120.87311"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan951">- Connection state of car</tspan><tspan
+                   sodipodi:role="line"
+                   x="286.29285"
+                   y="134.68431"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan953">- Current state of lights</tspan><tspan
+                   sodipodi:role="line"
+                   x="286.29285"
+                   y="148.4955"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan955">- Current command sent</tspan></text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+                 x="437.79776"
+                 y="395.44635"
+                 id="text976"
+                 transform="scale(1.0143676,0.9858359)"><tspan
+                   sodipodi:role="line"
+                   id="tspan974"
+                   x="437.79776"
+                   y="395.44635"
+                   style="font-size:11.04895687px;stroke-width:0.25895992">Microcontroller:</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="409.25754"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan978">- SPI/I2C ports (to RF and Screen systems)</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="423.06876"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan980">- 1KB of RAM for screen buffer</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="436.87994"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan982">- ADC (to inputs)</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="446.91101"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan984" /><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="459.32312"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan986">Pins:</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="473.13434"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan976">- 1 ADC to battery level</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="486.94553"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan979">- 1 ADC to Joystick</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="500.75671"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan988">- 1 ADC to potenciometer of servocam</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="514.56793"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan124">- 2 Digital inputs to buttons </tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="528.37909"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan987">- 1 Digital input to light's lever</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="542.19031"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan991">- 2 I2C for OLED screen</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="556.00153"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan1006">- 6 Communication with NRF24</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="569.81268"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan1008">- 14 Total pins for connections</tspan><tspan
+                   sodipodi:role="line"
+                   x="437.79776"
+                   y="579.84381"
+                   style="font-size:11.04895687px;stroke-width:0.25895992"
+                   id="tspan1010" /></text>
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot990"
+                 style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:26.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+                   id="flowRegion992"><rect
+                     id="rect994"
+                     width="323.24881"
+                     height="238.396"
+                     x="3264.813"
+                     y="1655.8802" /></flowRegion><flowPara
+                   id="flowPara996" /></flowRoot>            </g>
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot1015"
+               style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:26.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+                 id="flowRegion1017"><rect
+                   id="rect1019"
+                   width="52.527931"
+                   height="230.31477"
+                   x="5058.8438"
+                   y="-65.419708" /></flowRegion><flowPara
+                 id="flowPara1021" /></flowRoot>            <g
+               transform="translate(233.99992,-306.57076)"
+               id="g1059-7"
+               style="fill:#aad400">
+              <g
+                 id="g1088"
+                 style="fill:#aad400" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+             x="695.66913"
+             y="164.88893"
+             id="text916"
+             transform="scale(1.0143676,0.9858359)"><tspan
+               sodipodi:role="line"
+               x="695.66913"
+               y="164.88893"
+               style="font-size:11.04895687px;stroke-width:0.25895992"
+               id="tspan918">- Screen OLED 128x64</tspan><tspan
+               sodipodi:role="line"
+               x="695.66913"
+               y="178.70013"
+               style="font-size:11.04895687px;stroke-width:0.25895992"
+               id="tspan935">- SPI/I2C connection</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.20942593px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23285349"
+           x="729.84106"
+           y="314.09515"
+           id="text924"
+           transform="scale(0.84029566,1.1900573)"><tspan
+             sodipodi:role="line"
+             id="tspan922"
+             x="729.84106"
+             y="314.09515"
+             style="font-size:9.93508148px;stroke-width:0.23285349">- NRF24 transmitter/receiver</tspan><tspan
+             sodipodi:role="line"
+             x="729.84106"
+             y="326.51401"
+             style="font-size:9.93508148px;stroke-width:0.23285349"
+             id="tspan926">- 3,3V regulator</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1102">
+      <path
+         inkscape:transform-center-y="-1.6735748e-005"
+         inkscape:transform-center-x="3.3878051e-005"
+         transform="matrix(0.33085386,0.02763873,-0.01767735,0.09865211,257.46304,-188.39703)"
+         d="M 2985.9329,115.37042 2692.0835,201.18278 2606.2712,-92.666647 2900.1206,-178.479 Z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.2866689"
+         sodipodi:arg1="0.50127078"
+         sodipodi:r2="165.71429"
+         sodipodi:r1="216.46159"
+         sodipodi:cy="11.351887"
+         sodipodi:cx="2796.1021"
+         sodipodi:sides="4"
+         id="path1047-9"
+         style="fill:#aad400;opacity:0.98999999;fill-opacity:1;fill-rule:evenodd;stroke:#000400;stroke-width:5.29216337;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <text
+         transform="matrix(1.0217154,0,0,1.0217154,429.08112,-456.03388)"
+         id="text1054-1"
+         y="341.58801"
+         x="697.88336"
+         style="fill:#aad400;font-style:normal;font-weight:normal;font-size:6.90559769px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill-opacity:1;stroke:none;stroke-width:0.25895992"
+         xml:space="preserve"><tspan
+           style="font-size:11.04895687px;stroke-width:0.25895992;fill:#002b11"
+           y="341.58801"
+           x="697.88336"
+           id="tspan1052-4"
+           sodipodi:role="line">Battery meter</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1357.6905,195.70238 V -73.416664"
+       id="path1096"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1326.7259,-73.970104 v 84.457171 h -71.6282"
+       id="path1111"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.04395294;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1284.0276,-110.31876 H 1231.578"
+       id="path1113"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.41665602;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 828.2224,201.40652 h 95.14794"
+       id="path1119"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.75812531;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 501.10958,230.65098 V 161.6608 h 150.58756"
+       id="path1121"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0044aa;stroke:#0044aa;stroke-width:5.63311243;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1113.9794,5.1416762 H 641.87125"
+       id="path1127"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#0044aa;stroke-width:6.34988689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1199.0204,53.501524 V 203.10878 h -76.8929"
+       id="path1144"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0044aa;stroke-width:5.64753962;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1112.9437,26.317305 H 750.35002 v 75.691675"
+       id="path1146"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.93142438;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1133.1898,-110.50957 H 799.78124 792.97701 V 102.70329"
+       id="path1148"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0044aa;stroke-width:6.05822229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1223.5791,53.543214 V 411.28443 422.19117 H 500.30931 V 322.9398"
+       id="path1150"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="669.24286"
+       y="158.01984"
+       id="text885"><tspan
+         sodipodi:role="line"
+         x="669.24286"
+         y="158.01984"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan910">- PIC 168F73A</tspan><tspan
+         sodipodi:role="line"
+         x="669.24286"
+         y="168.26875"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan889" /><tspan
+         sodipodi:role="line"
+         x="669.24286"
+         y="177.0882"
+         style="stroke-width:0.26458332"
+         id="tspan887" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.28888889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="930.09796"
+       y="100.28963"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="930.09796"
+         y="106.72662"
+         style="stroke-width:0.26458332;font-size:11.28888889px;" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="931.54968"
+       y="179.95168"
+       id="text897"><tspan
+         sodipodi:role="line"
+         x="931.54968"
+         y="179.95168"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan903">- 1 Joystick to move</tspan><tspan
+         sodipodi:role="line"
+         x="931.54968"
+         y="194.06279"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan901">- 2 Buttons to direcction</tspan><tspan
+         sodipodi:role="line"
+         x="931.54968"
+         y="208.1739"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan957">- 1 Lever for lights</tspan><tspan
+         sodipodi:role="line"
+         x="931.54968"
+         y="222.285"
+         style="font-size:11.28888893px;stroke-width:0.26458332"
+         id="tspan959">- 1 Potenciometer for servocam</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.14104557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 641.16029,30.059093 h 62.5162 V 102.4794"
+       id="path1121-3"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

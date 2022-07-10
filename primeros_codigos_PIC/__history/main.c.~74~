@@ -1,0 +1,73 @@
+#include <16f877A.h>
+
+# device adc = 8
+
+#fuses XT,NOWDT
+#use delay (clock=4MHZ)
+
+#use standard_io(A) // analog input
+#use standard_io(B) //output
+#use standard_io(C) // input port / i2c,spi
+
+int time = 150;
+
+int16 velocity; // valor de velocidad del joystick
+int16 position; // velor del potenciometro para servo
+
+void main()
+{
+   output_b(0b00000000); // inicia todo el puerto b apagado
+   set_tris_a(0b00000001); // configura el AN0 como entrada
+   setup_adc_ports(ALL_ANALOG); // configuracion de puertos analogicos
+   setup_adc(ADC_CLOCK_INTERNAL); // configura clock del ADC
+   
+   setup_ccp1(CCP_PWM); // configura el ccp1 como salida PWM
+   setup_timer_2(T2_DIV_BY_16, 255,1); // configura el timer2 para el PWM
+
+   output_high(PIN_B0);
+   delay_ms(time);
+   output_low(PIN_B0);
+   delay_ms(time);
+   output_high(PIN_B0);
+   delay_ms(time);
+   output_low(PIN_B0);
+   
+   while(true)
+   {
+      set_adc_channel(0); // configura el canal AN0 para lectura analoga
+      delay_ms(2);
+      velocity = READ_ADC(); // lee el canal cero AN0 y lo guarda en velocity
+      delay_ms (2);
+      
+      SET_PWM1_DUTY(velocity); // pone a la salida ccp1_pwm el valor leido de AN0
+      delay_ms (2);
+      
+      //SET_ADC_CHANNEL(1);
+      //delay_ms(1);
+      //position = READ_ADC(); // lee el canal cero AN1 y lo guarda en velocity
+      
+      
+      
+      if( input(PIN_C1) == 1 )
+      {
+         output_high(PIN_B1);
+      }
+      output_low(PIN_B1);
+      
+      if( input(PIN_C2) == 1 )
+      {
+         output_high(PIN_B2);
+      }
+      output_low(PIN_B2);
+      
+      
+      
+      if( input(PIN_C0) == 1 )
+      {
+         output_high(PIN_B0);
+      }
+      output_low(PIN_B0);
+   }
+}
+
+

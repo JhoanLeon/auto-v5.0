@@ -1,0 +1,22 @@
+[PROJECT]
+Target=rx_code.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=rx_code.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[rx_code.c]
+Type=4
+[mru-list]
+1=rx_code.c
+[Opened Files]
+1=rx_code.c
+2=
+3=..\transmisor_PIC\tx_code.c
+4=
+5=
+[Units]
+Count=1
+1=rx_code (main)
